@@ -1,0 +1,16 @@
+.food-display{
+    margin-top: 30px;
+}
+/* .food-display p {
+    color: blue;
+} */
+.food-display-list{
+    margin-top: 30px;
+ display: flex;
+ /* flex-direction: column; */
+ flex-wrap: wrap;
+ /* grid-template-columns:repeat(auto-fill ,minmax (240px, 1fr)); */
+ margin-top: 30px;
+ gap: 30px;
+ row-gap: 50px;
+}

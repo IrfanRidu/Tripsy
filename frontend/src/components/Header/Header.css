@@ -1,0 +1,25 @@
+.header {
+  background: url("/header_img.png") no-repeat;
+  min-height: 34vh;
+  position: relative;
+  margin: 30px auto;
+ 
+  /* background-size: contain; */
+}
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  bottom: 10%;
+  gap: 1.5vw;
+  max-width: 50%;
+  left: 3vw;
+  animation: fadeIn 3s;
+}
+.h2 {
+  color: whitesmoke;
+}
+.p {
+  color: whitesmoke;
+}
